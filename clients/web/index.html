@@ -3,8 +3,14 @@
 <head>
 <script src="./lib/jquery-ui/js/jquery.js"></script>
 <script src="./lib/boostrap/boostrap.js"></script>
+<script src="./js/easyscheduler.js"></script>
 <link src="./css/es.default.css" />
+<script>
+var config = loadConfig();
+var es= new EasyScheduler(config);
 
+
+</script>
 </head>
 <body>
 <div id="easy-scheduler" class="esclient">
